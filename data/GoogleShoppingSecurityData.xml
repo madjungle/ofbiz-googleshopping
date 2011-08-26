@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityPermission description="View operations in the GoogleShopping Component." permissionId="GOOGLESHOPPING_VIEW"/>
+    <SecurityPermission description="Create operations in the GoogleShopping Component." permissionId="GOOGLESHOPPING_CREATE"/>
+    <SecurityPermission description="Update operations in the GoogleShopping Component." permissionId="GOOGLESHOPPING_UPDATE"/>
+    <SecurityPermission description="Delete operations in the GoogleShopping Component." permissionId="GOOGLESHOPPING_DELETE"/>
+    <SecurityPermission description="ALL operations in the GoogleShopping Component." permissionId="GOOGLESHOPPING_ADMIN"/>
+    <SecurityGroupPermission groupId="FULLADMIN" permissionId="GOOGLESHOPPING_ADMIN"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="GOOGLESHOPPING_CREATE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="GOOGLESHOPPING_DELETE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="GOOGLESHOPPING_UPDATE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="GOOGLESHOPPING_VIEW"/>
+    <SecurityGroupPermission groupId="VIEWADMIN" permissionId="GOOGLESHOPPING_VIEW"/>
+    <SecurityGroupPermission groupId="BIZADMIN" permissionId="GOOGLESHOPPING_ADMIN"/>
+</entity-engine-xml>
